@@ -64,6 +64,7 @@ nav {
   font-size: calc(0.5rem+1.5vw);
   display: flex;
 }
+
 .logoNav {
   display: flex;
   justify-content: center;
@@ -93,11 +94,13 @@ header {
   display: inline-block;
   padding: 0px 15px;
 }
-.nav__link  i {
+
+.nav__link i {
   padding: 0px 5px;
   color: var(--Blue);
   transition: all 0.2s ease 0s;
 }
+
 .nav__link li a {
   transition: all 0.2s ease 0s;
 }
@@ -106,9 +109,10 @@ header {
   color: var(--Blue);
 
 }
+
 .nav__link i:hover {
   color: var(--Black);
-  
+
 }
 
 .search {
@@ -261,7 +265,7 @@ header button:hover {
 }
 
 .presentation h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   text-transform: capitalize;
 }
 
@@ -520,7 +524,8 @@ hr {
   padding-left: 30px;
 }
 
-.title::before,.title::after {
+.title::before,
+.title::after {
   position: absolute;
   content: "";
   height: 16px;
@@ -542,7 +547,8 @@ hr {
   animation: pulse 1s linear infinite;
 }
 
-.message, .signin {
+.message,
+.signin {
   color: rgba(88, 87, 87, 0.822);
   font-size: 14px;
 }
@@ -577,7 +583,7 @@ hr {
   border-radius: 10px;
 }
 
-.form label .input + span {
+.form label .input+span {
   position: absolute;
   left: 10px;
   top: 15px;
@@ -587,18 +593,19 @@ hr {
   transition: 0.3s ease;
 }
 
-.form label .input:placeholder-shown + span {
+.form label .input:placeholder-shown+span {
   top: 15px;
   font-size: 0.9em;
 }
 
-.form label .input:focus + span,.form label .input:valid + span {
+.form label .input:focus+span,
+.form label .input:valid+span {
   top: 30px;
   font-size: 0.7em;
   font-weight: 600;
 }
 
-.form label .input:valid + span {
+.form label .input:valid+span {
   color: green;
 }
 
@@ -646,7 +653,7 @@ hr {
   margin: 1rem;
   display: grid;
   grid-gap: 1.5rem;
-  grid-template-rows: repeat(2, 22rem);
+  grid-template-rows: repeat(2, 24rem);
   grid-template-columns: repeat(4, 17rem);
 }
 
@@ -787,7 +794,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .div1 {
     background-position-x: 10rem;
   }
@@ -929,7 +936,7 @@ ul {
   flex-direction: column;
   min-height: 100vh;
   margin: 1% auto;
-  width: 40%;
+  width: 45vw;
   backdrop-filter: blur(5px);
   border-radius: 45px;
 }
@@ -937,12 +944,7 @@ ul {
 .bodyS {
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(
-    circle,
-    var(--Blue),
-    transparent 110%,
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(360deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .bodyS header {
@@ -957,9 +959,22 @@ ul {
   border-radius: 45px;
 }
 
+.bodyS .footer {
+  background-color: inherit;
+  color: white;
+}
+
+.bodyS .footer-col ul li a {
+  color: white;
+}
+
+.bodyS .footer-col h4 {
+  color: white;
+}
+
 .programme .seance {
   box-shadow: 0px 0px 25px #6d6b6b6b;
-  
+
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgb(255, 255, 255);
@@ -1046,10 +1061,6 @@ ul {
 @media only screen and (max-width: 768px) {
   header {
     font-size: 12px;
-  }
-
-  header nav {
-    display: none;
   }
 
   .hero {

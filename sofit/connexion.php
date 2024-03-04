@@ -17,6 +17,7 @@ if (isset($_POST['envoi'])) {
         } else {
             echo "Informations Incorrect";
         }
+
     } else {
         echo 'Veuillez completer les champs requis';
     }
@@ -31,7 +32,8 @@ if (isset($_POST['envoi'])) {
     <meta name="viewport" content="wisdth=device-width, initial-scale=1.0">
     <title>connexion</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <body>
