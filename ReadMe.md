@@ -1,78 +1,79 @@
-# 🎓 Projet Pop School - DWWM
+# 🎓 Pop School Project - DWWM
 
-**Projet Pop School** est un site web développé dans le cadre de la formation **Développeur Web et Web Mobile (DWWM)** à **Pop School**. Ce projet a été réalisé en respectant un cahier des charges fourni par l'école, afin de mettre en pratique les compétences apprises durant la formation.
+**Pop School Project** is a website developed as part of the **Web and Mobile Web Developer (DWWM)** course at **Pop School**. This project was created following a specification provided by the school, in order to apply the skills learned during the training.
 
-## 📄 Cahier des Charges
+## 📄 Specifications
 
-L'objectif de ce projet était de :
-- Créer un site web dynamique avec des fonctionnalités interactives.
-- Respecter les consignes du design et de la structure de contenu définies dans le cahier des charges.
-- Utiliser des technologies web modernes (HTML, CSS, JavaScript) pour développer un site responsive.
-- Implémenter une navigation intuitive et des fonctionnalités spécifiques demandées par Pop School.
-- Rajouter une base de données pour une simple fonctionalité de Connexion / Déconnexion.
+The objective of this project was to:
+- Create a dynamic website with interactive features.
+- Follow the design and content structure guidelines defined in the specifications.
+- Use modern web technologies (HTML, CSS, JavaScript) to develop a responsive website.
+- Implement intuitive navigation and specific features requested by Pop School.
+- Add a database for a simple login/logout functionality.
 
-## 🌐 Fonctionnalités
+## 🌐 Features
 
-Le site web développé comprend les éléments suivants :
-- **Page d'accueil** : Présentation générale et liens vers les différentes sections.
-- **Catalogue des formations** : Liste des formations disponibles à Pop School avec détails.
-- **Formulaire de Connexion** : Permet aux utilisateurs de se connecter ou bien de se créer un compte.
-- **Responsive Design** : Le site s’adapte aux différents types d’écrans (mobile, tablette, desktop) mais qui n'est pas fini.
+The developed website includes the following elements:
+- **Homepage**: General presentation and links to various sections.
+- **Course Catalog**: List of courses available at Pop School with details.
+- **Login Form**: Allows users to log in or create an account.
+- **Responsive Design**: The site adapts to different screen types (mobile, tablet, desktop), though it is not yet finished.
 
-## 🛠️ Technologies Utilisées
+## 🛠️ Technologies Used
 
-Le projet a été développé avec les technologies suivantes :
-- **HTML5** : Structure sémantique du contenu.
-- **CSS3** : Mise en page et styles visuels.
-- **PHP** : Connexion avec la BDD et du système de connexion / déconnexion.
-- **Git & GitHub** : Versionnement et gestion du projet.
+The project was developed using the following technologies:
+- **HTML5**: Semantic structure of the content.
+- **CSS3**: Layout and visual styles.
+- **PHP**: Database connection and login/logout system.
+- **Git & GitHub**: Version control and project management.
 
 ## 📥 Installation
 
-1. Pour visualiser le projet localement :
-	- **Installer Xampp (pour Windows et Linux)** :
-		[Installation de Xampp](https://www.apachefriends.org/)
-		
-	- **Installer MAMP (pour MacOs)**
-		[Lien pour MAMP](https://www.mamp.info/en/mac/)
-	
-3. **Clonez le dépôt GitHub** :
+1. To view the project locally:
+   - **Install Xampp (for Windows and Linux)**:
+     [Xampp Installation](https://www.apachefriends.org/)
+     
+   - **Install MAMP (for MacOS)**:
+     [MAMP Link](https://www.mamp.info/en/mac/)
+   
+3. **Clone the GitHub repository**:
    ```bash
    git clone https://github.com/EyeOne2-0/ProjetPopSchool.git
    ```
 
-4. **Naviguez dans le répertoire du projet** :
+4. **Navigate to the project directory**:
    ```bash
    cd ProjetPopSchool
    ```
 
-5. Ouvrez le fichier `index.html` dans votre navigateur pour voir le site.
+5. Open the `index.html` file in your browser to view the website.
 
-## 📂 Structure du Projet
+## 📂 Project Structure
 
--   `index.html` : Page d'accueil du site.
--   `style.css` : Fichier de styles pour la mise en page.
--   `connexion.php` : Page de connexion pour l'authentification des utilisateurs.
--   `dashboard.php` : Page principale pour les utilisateurs connectés.
--   `inscri.php` : Formulaire d'inscription.
--   `deconnexion.php` : Déconnexion des utilisateurs et gestion des sessions.
--   `Prix.php` : Page affichant les informations sur les tarifs.
--   `séances.php` : Page affichant les détails des séances.
--   Dossier `img/` : Contient les images utilisées sur le site.
+-   `index.html`: Homepage of the site.
+-   `style.css`: Stylesheet for layout.
+-   `connexion.php`: Login page for user authentication.
+-   `dashboard.php`: Main page for logged-in users.
+-   `inscri.php`: Registration form.
+-   `deconnexion.php`: User logout and session management.
+-   `Prix.php`: Page displaying pricing information.
+-   `séances.php`: Page showing session details.
+-   `img/` folder: Contains images used on the site.
 
+## 💡 About the DWWM Course
 
-## 💡 A propos de la Formation DWWM
+The **Web and Mobile Web Developer (DWWM)** course at Pop School provides the necessary skills to design and develop web and mobile applications. This project is a practical application of the concepts covered during the course.
+I applied, but the course never took place.
 
-La formation **Développeur Web et Web Mobile (DWWM)** à Pop School permet d'acquérir les compétences nécessaires pour concevoir et développer des applications web et mobiles. Ce projet est une mise en application des notions abordées dans le cadre de cette formation.
-J'ai postulé mais la formation n'a jamais eu lieu.
+## 🔗 Project Link
 
-## 🔗 Lien vers le Projet
-
-Vous pouvez consulter le projet directement sur GitHub :  
+You can view the project directly on GitHub:  
 [Pop School Project on GitHub](https://github.com/EyeOne2-0/ProjetPopSchool)
 
 ## 📧 Contact
 
-Si vous avez des questions ou des suggestions concernant ce projet, n'hésitez pas à me contacter via [GitHub](https://github.com/EyeOne2-0).
+If you have any questions or suggestions regarding this project, feel free to contact me via [GitHub](https://github.com/EyeOne2-0).
 
 ---
+
+Let me know if you need further adjustments!
